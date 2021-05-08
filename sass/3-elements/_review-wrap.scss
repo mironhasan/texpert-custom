@@ -1,0 +1,48 @@
+
+
+
+
+.review-quote {
+    padding: 55px 45px 80px;
+    border-radius: 8px;
+    text-align: center;
+    background: var(--white);
+
+    i {
+        display: block;
+        font-size: 50px;
+        color: var(--gray);
+        margin-bottom: 18px;
+        @include cursor__transition;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.review-meta {
+    text-align: center;
+    margin-top: -45px;
+
+    a {
+        img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            border: 8px solid #f0f9f9;
+        }
+    }
+
+    h5 {
+        text-transform: capitalize;
+        @include cursor__transition;
+    }
+
+    p {
+        font-size: 15px;
+        color: var(--gray);
+        text-transform: capitalize;
+    }
+}

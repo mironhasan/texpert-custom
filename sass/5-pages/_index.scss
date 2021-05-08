@@ -1,0 +1,212 @@
+
+
+
+//========================================
+//           BANNER PART STYLE
+//========================================
+.banner-part {
+    background: url(../images/shape.jpg);
+    @include background__property;
+    padding: 60px 0px;
+}
+
+.banner-brand {
+    margin-bottom: 20px;
+
+    i {
+        font-size: 30px;
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0px;
+        }
+    }
+}
+
+.banner-text {
+    margin-bottom: 35px;
+
+    h1 {
+        margin-bottom: 25px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+.banner-list {
+    @include flex__center__between;
+
+    li {
+        small {
+            margin-bottom: 5px;
+            white-space: nowrap;
+            display: block;
+        }
+
+        h5 {
+            white-space: nowrap;
+        }
+
+        a {
+            font-size: 14px;
+            padding: 6px 18px;
+            border-radius: 6px;
+            letter-spacing: 0.3px;
+            white-space: nowrap;
+            text-transform: uppercase;
+            background: var(--primary);
+            color: var(--white);
+        }
+    }
+}
+
+.banner-img {
+    img {
+        width: 100%;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .banner-list {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        li {
+            margin: 10px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-img {
+        img {
+            margin: 30px 0px 0px;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .banner-list {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        li {
+            margin: 10px;
+        }
+    }
+
+    .banner-img {
+        img {
+            margin-left: 0px;
+        }
+    }
+}
+
+//========================================
+//           COUNTER PART STYLE
+//========================================
+@media (max-width: 575px) {
+    .counter-wrap {
+        margin: 15px 0px;
+    }
+}
+
+//========================================
+//           FEATURE PART STYLE
+//========================================
+.feature-part {
+    background: var(--feature-bg);
+}
+
+.feature-img {
+    img {
+        width: 100%;
+    }
+}
+
+.feature-list {
+    margin-left: 50px;
+
+    li {
+        margin-bottom: 50px;
+
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .feature-img {
+        margin-bottom: 30px;
+    }
+
+    .feature-list {
+        margin-left: 0px;
+    }
+}
+
+//========================================
+//           ISSUE PART STYLE
+//========================================
+@media (min-width: 576px) and (max-width: 767px) {
+    .issue-wrap {
+        padding: 25px 25px;
+    }
+}
+
+//========================================
+//           DEFINE PART STYLE
+//========================================
+.define-part {
+    background: var(--define-bg);
+}
+
+@media (max-width: 991px) {
+    .define-wrap {
+        padding: 50px 30px;
+        margin-bottom: 25px;
+    }
+}
+
+//========================================
+//           VIDEO PART STYLE
+//========================================
+.video-slider {
+    li {
+        margin: 0px 12px;
+    }
+}
+
+//========================================
+//           REVIEW PART STYLE
+//========================================
+.review-part {
+    background: var(--review-bg);
+}
+
+.review-slider {
+    li {
+        margin: 0px 12px;
+
+        &:hover {
+            .review-quote {
+                i {
+                    color: var(--primary);
+                }
+            }
+
+            .review-meta {
+                h5 {
+                    color: var(--primary);
+                }
+            }
+        }
+    }
+}
+
+

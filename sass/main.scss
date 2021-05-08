@@ -1,0 +1,113 @@
+
+
+
+
+/*========================================
+            ALL COMMON CSS START
+=========================================*/
+@import '1-helpers/_font.scss';
+@import '1-helpers/_variable.scss';
+@import '1-helpers/_mixin.scss';
+@import '1-helpers/_common.scss';
+/*========================================
+            ALL COMMON CSS END
+=========================================*/
+/*
+|
+|
+*/ 
+/*========================================
+            ALL COMPONENTS START
+=========================================*/
+/* BUTTON COMPONENT */
+@import "2-components/_button.scss";
+
+/* ALERT COMPONENT */
+@import "2-components/_alert.scss";
+
+/* SECTION COMPONENT */
+@import "2-components/_section.scss";
+
+/* SLIDER ARROW COMPONENT */
+@import "2-components/_slider-arrow.scss";
+
+/* SLIDER DOTS COMPONENT */
+@import "2-components/_slider-dots.scss";
+
+/* FORM COMPONENT */ 
+@import "2-components/_form.scss";
+/*========================================
+            ALL COMPONENTS END
+=========================================*/
+/*
+|
+|
+*/ 
+/*========================================
+            ALL ELEMENTS START
+=========================================*/
+/* COUNTER WRAP ELEMENT */ 
+@import "3-elements/_counter-wrap.scss";
+
+/* FEATURE WRAP ELEMENT */ 
+@import "3-elements/_feature-wrap.scss";
+
+/* ISSUE WRAP ELEMENT */
+@import "3-elements/_issue-wrap.scss";
+
+/* DEFINE WRAP ELEMENT */
+@import "3-elements/_define-wrap.scss";
+
+/* VIDEO WRAP ELEMENT */
+@import "3-elements/_video-wrap.scss";
+
+/* REVIEW WRAP ELEMENT */
+@import "3-elements/_review-wrap.scss";
+
+/* PRICE WRAP ELEMENT */
+@import "3-elements/_price-wrap.scss";
+
+/* CONTACT WRAP ELEMENT */ 
+@import "3-elements/_contact-wrap.scss";
+/*========================================
+            ALL ELEMENTS END
+=========================================*/
+/*
+|
+|
+*/ 
+/*========================================
+            ALL LAYOUTS START
+=========================================*/
+/* HEADER LAYOUT */
+@import "4-layouts/_header.scss";
+
+/* FOOTER LAYOUT */
+@import "4-layouts/_footer.scss";
+/*========================================
+            ALL LAYOUTS END
+=========================================*/
+/*
+|
+|
+*/ 
+/*========================================
+            ALL PAGES START
+=========================================*/
+/* INDEX PAGE */
+@import "5-pages/_index.scss";
+
+/* HOW PAGE */
+@import "5-pages/_how.scss";
+
+/* PRICE PAGE */
+@import "5-pages/_price.scss";
+
+/* CONTACT PAGE */
+@import "5-pages/_contact.scss";
+
+/* AUTH PAGE */
+@import "5-pages/_auth.scss";
+/*========================================
+            ALL PAGES END
+=========================================*/
